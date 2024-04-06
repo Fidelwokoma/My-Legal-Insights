@@ -10,6 +10,8 @@
     <title>Checkout Page</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://js.paystack.co/v1/inline.js"></script>
+    
+    <script src="https://js.paystack.co/v1/inline.js"></script>
 </head>
 <body>
     <div class="container">
@@ -46,22 +48,31 @@
 
         <div class="right-side">
         
-            <form id="checkoutForm">
+            <form id="paymentForm">
+
             <h2 class="pricing-02__info_item_text">Information</h2>
+                
                 <div class="form-group">
+                
                     <label class="pricing-02__info_item_text" for="fullname">Full Name</label>
+                
                     <input class="pricing-02__info_item_text" type="text" id="name" name="name" placeholder="Enter your full name" required>
+                
                 </div>
+
                 <div class="form-group">
+                
                     <label for="email" class="pricing-02__info_item_text">Email Address</label>
-                    <input class="pricing-02__info_item_text" type="email" id="email" name="email" placeholder="Enter your email address" required>
+                
+                    <input class="pricing-02__info_item_text" type="email" id="email-address" name="email" placeholder="Enter your email address" required>
+                
                 </div>
                 
                 <div class="form-group">
                     <input class="pricing-02__info_item_text" type="radio" id="radio" value="Individual" name="Type" placeholder="Enter your email address">
-                    Individual &nbsp;&nbsp;&nbsp;&nbsp;
+                    Individual &nbsp;
                     <input class="pricing-02__info_item_text" type="radio" id="radio2" value="Organization" name="Type" placeholder="Enter your email address" required>
-                    Organization &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Organization &nbsp;
                 </div>
 
                 <div class="form-group">
